@@ -1,10 +1,10 @@
 import "./inputField.css"
 const InputField=(props)=>{
-    const {isLabel=true,name,type="text",labelColor,labelSize="16px"}=props;
+    const {isLabel=true,label,name,type="text",labelColor,labelSize="16px",onChange}=props;
     return(
         <div className="inputFieldContainer">
-        {isLabel && <label style={{color:labelColor,fontSize:labelSize}}>{name}</label>}
-            <input className="inputField" type={type} placeholder={name} name={name} />
+        {isLabel && <label style={{color:labelColor,fontSize:labelSize}}>{label}</label>}
+            <input className="inputField" type={type} placeholder={name} name={name} onChange={onChange} />
         </div>
     )
 }

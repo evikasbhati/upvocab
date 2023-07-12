@@ -4,7 +4,7 @@ const Card=(props)=>{
     return(
         <>
         <div className="cardContainer" style={{width:width,height:height}}>
-            <h3 style={{color:"white"}}>{title}</h3>
+            <h3 style={{color:"black"}}>{title}</h3>
         </div>
         </>
     )
