@@ -1,7 +1,7 @@
 "use client"
 import InputField from "@/components/inputField/InputField"
 import "./signup.css"
-import Buttton from "@/components/button/Button"
+import Buttton from "@/components/inButton/InButton"
 import { useState } from "react"
 const Signup=()=>{
 
